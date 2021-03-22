@@ -8,13 +8,15 @@
 }
 
 .nav {
-    background-color:rgb(46, 201, 149);
     height: 10vh;
     width: 100vw;
+    position: static;
+    background-color:rgb(46, 201, 149);
+
 }
 h3 {
     display: flex;
-    position:sticky;
+    position:static;
     justify-content: center;
     background-color: aqua;
     height: 10vh;
@@ -26,15 +28,22 @@ h3 {
 
 .main {
     background-color:rgb(173, 233, 213);
-    height: 90vh;
+    height: 85vh;
     width: 100vw;
 }
 
 .icons {
-    position: absolute;
+    height:5vh;
+    position: relative;
     padding: 8px;
+    background-color:rgb(173, 233, 213);
 }
 
 .x {
     display: none;
+}
+
+.notes {
+    
+    height: 85vh;
 }
